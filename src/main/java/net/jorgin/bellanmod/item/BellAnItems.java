@@ -1,4 +1,4 @@
-package net.jorgin.bellanmod.items;
+package net.jorgin.bellanmod.item;
 
 import net.jorgin.bellanmod.BellAnMod;
 import net.minecraft.world.item.Item;
