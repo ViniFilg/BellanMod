@@ -13,6 +13,8 @@ public class BellAnItems {
 
     public static final RegistryObject<Item> Googles = ITEMS.register("googles",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> Limbo_Staff = ITEMS.register("limbo_staff",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

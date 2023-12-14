@@ -41,6 +41,7 @@ public class BellAnMod {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(BellAnItems.Googles);
+            event.accept(BellAnItems.Limbo_Staff);
         }
     }
 
