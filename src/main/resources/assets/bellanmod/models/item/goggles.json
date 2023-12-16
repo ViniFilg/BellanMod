@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "bellanmod:item/googles"
+    "layer0": "bellanmod:item/goggles"
   }
 }
