@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "bellanmod:limbo_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "bellanmod:limbo_essence"
+  }
+}
