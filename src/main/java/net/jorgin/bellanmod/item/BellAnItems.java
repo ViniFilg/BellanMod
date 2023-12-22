@@ -18,6 +18,13 @@ public class BellAnItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> Brasadil = ITEMS.register("brasadil",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> Brasell = ITEMS.register("brasell",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> Matrix_Gold = ITEMS.register("matrix_gold",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> Aquarel = ITEMS.register("aquarel",
+            () -> new Item(new Item.Properties()));
+
 
     public static final RegistryObject<Item> Limbo_Essence = ITEMS.register("limbo_essence",
             () -> new Item(new Item.Properties().food(BellAnFoods.LIMBO_ESSENCE)));

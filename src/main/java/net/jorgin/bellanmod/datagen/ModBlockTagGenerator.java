@@ -23,10 +23,17 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
         // exemplos de como adicionar tags abaixo
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(BellAnBlocks.LIMBO_BLOCK.get())
-                .add(BellAnBlocks.BRASADIL_ORE.get());
+                .add(BellAnBlocks.BRASADIL_ORE.get())
+                .add(BellAnBlocks.AQUAREL_ORE.get())
+                .add(BellAnBlocks.MATRIX_GOLD_ORE.get());
+
         this.tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(BellAnBlocks.LIMBO_BLOCK.get())
-                .add(BellAnBlocks.BRASADIL_ORE.get());
+                .add(BellAnBlocks.BRASADIL_ORE.get())
+                .add(BellAnBlocks.MATRIX_GOLD_ORE.get());
+
+        this.tag(BlockTags.NEEDS_STONE_TOOL)
+                .add(BellAnBlocks.AQUAREL_ORE.get());
 
     }
 }

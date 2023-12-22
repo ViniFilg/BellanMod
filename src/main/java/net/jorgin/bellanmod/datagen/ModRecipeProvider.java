@@ -39,6 +39,14 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(BellAnBlocks.LIMBO_BLOCK.get()), has(BellAnBlocks.LIMBO_BLOCK.get()))
                 .save(pWriter);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, BellAnItems.Brasell.get())
+                .pattern("###")
+                .pattern("#$#")
+                .pattern("###")
+                .define('#', Items.IRON_INGOT)
+                .define('$', BellAnItems.Brasadil.get())
+                .unlockedBy(getHasName(BellAnItems.Brasadil.get()), has(BellAnItems.Brasadil.get()))
+                .save(pWriter);
 
     }
 

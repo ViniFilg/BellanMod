@@ -4,9 +4,14 @@
   "item.bellanmod.limbo_essence": "Limbo's Essence",
   "item.bellanmod.elektra_dagger": "Elektra Dagger",
   "item.bellanmod.brasadil": "Brasádil",
+  "item.bellanmod.aquarel": "Aquarel",
+  "item.bellanmod.brasell": "Braséll",
+  "item.bellanmod.matrix_gold": "Matrix Gold",
 
   "block.bellanmod.limbo_block": "Limbo's Block",
   "block.bellanmod.brasadil_ore": "Brasádil Ore",
+  "block.bellanmod.matrix_gold_ore": "Matrix Gold Ore",
+  "block.bellanmod.aquarel_ore": "Aquarel Ore",
 
   "creativetab.bellum_anachronisms": "Bellum Anachronisms"
 }

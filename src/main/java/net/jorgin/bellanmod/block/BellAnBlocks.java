@@ -23,6 +23,10 @@ public class BellAnBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.SLIME_BLOCK)));
     public static final RegistryObject<Block> BRASADIL_ORE = registerBlock("brasadil_ore",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.COAL_ORE)));
+    public static final RegistryObject<Block> AQUAREL_ORE = registerBlock("aquarel_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)));
+    public static final RegistryObject<Block> MATRIX_GOLD_ORE = registerBlock("matrix_gold_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)));
 
 
 

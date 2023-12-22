@@ -19,6 +19,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         blockWithItem(BellAnBlocks.LIMBO_BLOCK);
         blockWithItem(BellAnBlocks.BRASADIL_ORE);
+        blockWithItem(BellAnBlocks.AQUAREL_ORE);
+        blockWithItem(BellAnBlocks.MATRIX_GOLD_ORE);
 
 
     }

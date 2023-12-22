@@ -1,3 +1,4 @@
-// 1.20.1	2023-12-20T19:02:49.8059241	Tags for minecraft:block mod id bellanmod
-1653c90a518f9f6f6fcb11f127281b0d87f9f138 data/minecraft/tags/blocks/mineable/pickaxe.json
-1653c90a518f9f6f6fcb11f127281b0d87f9f138 data/minecraft/tags/blocks/needs_iron_tool.json
+// 1.20.1	2023-12-22T17:11:43.2471328	Tags for minecraft:block mod id bellanmod
+9de6c9aad966fe08c2e87423ac579c41b9e0aea4 data/minecraft/tags/blocks/mineable/pickaxe.json
+0113f7851c515573b0449fc533ec373c2ad7850b data/minecraft/tags/blocks/needs_iron_tool.json
+35b9fa5dcef3ac095fadad359341d4274994d684 data/minecraft/tags/blocks/needs_stone_tool.json

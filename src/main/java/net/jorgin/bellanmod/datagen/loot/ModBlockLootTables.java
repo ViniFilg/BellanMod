@@ -27,6 +27,10 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(BellAnBlocks.LIMBO_BLOCK.get());
         this.add(BellAnBlocks.BRASADIL_ORE.get(),
                 block -> createOreDrop(BellAnBlocks.BRASADIL_ORE.get(), BellAnItems.Brasadil.get()));
+        this.add(BellAnBlocks.AQUAREL_ORE.get(),
+                block -> createOreDrop(BellAnBlocks.AQUAREL_ORE.get(), BellAnItems.Aquarel.get()));
+        this.add(BellAnBlocks.MATRIX_GOLD_ORE.get(),
+                block -> createOreDrop(BellAnBlocks.MATRIX_GOLD_ORE.get(), BellAnItems.Matrix_Gold.get()));
 
 
     }

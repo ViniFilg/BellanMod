@@ -1,5 +1,7 @@
-// 1.20.1	2023-12-19T15:48:29.7584295	Recipes
+// 1.20.1	2023-12-22T17:11:43.2511543	Recipes
+2596cec08ab567e1be1ff71dd3e6a8020ca5360f data/bellanmod/advancements/recipes/misc/brasell.json
 dc60091d25d3b31e234019be6c6b7ebf4f4f96dd data/bellanmod/advancements/recipes/misc/limbo_block.json
 b23ea6809a70a5ab1edfd1129b3f6749da852f62 data/bellanmod/advancements/recipes/misc/limbo_essence.json
+7598ca426c2f5c4374040c6bfbc920ff87aaec61 data/bellanmod/recipes/brasell.json
 54a5c8fe84c54ed8f09fb987501c4eb91fc0120d data/bellanmod/recipes/limbo_block.json
 7ac53c9a7b60e746e069601a701cff92ef8731af data/bellanmod/recipes/limbo_essence.json
