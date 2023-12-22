@@ -1,6 +1,7 @@
 package net.jorgin.bellanmod.datagen.loot;
 
 import net.jorgin.bellanmod.block.BellAnBlocks;
+import net.jorgin.bellanmod.item.BellAnItems;
 import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.world.flag.FeatureFlagSet;
 import net.minecraft.world.flag.FeatureFlags;
@@ -24,6 +25,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                 block -> createOreDrops(BellAnBlocks.nome_bloco.get(), BellAnItems.nome_item_dropado.get());
         */
         this.dropSelf(BellAnBlocks.LIMBO_BLOCK.get());
+        this.add(BellAnBlocks.BRASADIL_ORE.get(),
+                block -> createOreDrop(BellAnBlocks.BRASADIL_ORE.get(), BellAnItems.Brasadil.get()));
 
 
     }

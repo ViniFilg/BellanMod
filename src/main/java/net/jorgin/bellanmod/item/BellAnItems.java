@@ -16,6 +16,8 @@ public class BellAnItems {
 
     public static final RegistryObject<Item> Goggles = ITEMS.register("goggles",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> Brasadil = ITEMS.register("brasadil",
+            () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> Limbo_Essence = ITEMS.register("limbo_essence",
             () -> new Item(new Item.Properties().food(BellAnFoods.LIMBO_ESSENCE)));

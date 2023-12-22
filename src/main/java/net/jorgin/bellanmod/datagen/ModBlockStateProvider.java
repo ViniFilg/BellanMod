@@ -16,7 +16,11 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
+
         blockWithItem(BellAnBlocks.LIMBO_BLOCK);
+        blockWithItem(BellAnBlocks.BRASADIL_ORE);
+
+
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

@@ -22,6 +22,7 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         simpleItem(BellAnItems.Goggles);
         simpleItem(BellAnItems.Limbo_Essence);
+        simpleItem(BellAnItems.Brasadil);
     }
 
     // metodos da adicionar um json para modelos de items

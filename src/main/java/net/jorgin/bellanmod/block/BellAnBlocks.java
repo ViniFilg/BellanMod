@@ -21,6 +21,8 @@ public class BellAnBlocks {
 
     public static final RegistryObject<Block> LIMBO_BLOCK = registerBlock("limbo_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.SLIME_BLOCK)));
+    public static final RegistryObject<Block> BRASADIL_ORE = registerBlock("brasadil_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COAL_ORE)));
 
 
 

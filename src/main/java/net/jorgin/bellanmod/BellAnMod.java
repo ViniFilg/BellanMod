@@ -46,10 +46,12 @@ public class BellAnMod {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
 
         /* com a tab do mod, esse codigo n eh mais necessario
+
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(BellAnItems.Goggles);
             event.accept(BellAnItems.Limbo_Staff);
         }
+
         */
     }
 

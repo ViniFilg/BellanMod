@@ -24,8 +24,10 @@ public class BellAnCreativeTab {
                         pOutput.accept(BellAnItems.Limbo_Staff.get());
                         pOutput.accept(BellAnItems.Limbo_Essence.get());
                         pOutput.accept(BellAnItems.Elektra_Dagger.get());
+                        pOutput.accept(BellAnItems.Brasadil.get());
 
                         pOutput.accept(BellAnBlocks.LIMBO_BLOCK.get());
+                        pOutput.accept(BellAnBlocks.BRASADIL_ORE.get());
 
 
 

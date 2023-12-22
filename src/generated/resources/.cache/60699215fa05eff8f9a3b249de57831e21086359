@@ -1,4 +1,7 @@
-// 1.20.1	2023-12-19T15:48:29.7614449	Block States: bellanmod
+// 1.20.1	2023-12-20T19:02:49.810909	Block States: bellanmod
+5393f91c3873878e3207a660ecb9b14196928f3d assets/bellanmod/blockstates/brasadil_ore.json
 096d71bcb5179b81bdd2df35b00e5ad56672650e assets/bellanmod/blockstates/limbo_block.json
+8af8b156fc3e3dd0d6da20b5e0e27cf80c696598 assets/bellanmod/models/block/brasadil_ore.json
 d33b16df74e3b3072b4893f5df0ae47610c7ed00 assets/bellanmod/models/block/limbo_block.json
+482771931a1acd6d631ff341c64b3981df313eca assets/bellanmod/models/item/brasadil_ore.json
 f15974932d5e754bbaff1aa56094374e3161cfe6 assets/bellanmod/models/item/limbo_block.json
