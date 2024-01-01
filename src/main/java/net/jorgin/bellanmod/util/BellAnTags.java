@@ -11,6 +11,7 @@ import net.minecraft.world.level.block.Block;
 public class BellAnTags {
     // tags para blocos
     public static class Blocks {
+        public static final TagKey<Block> NEEDS_MATRIX_GOLD_TOOL = tag("needs_matrix_gold_tool");
 
 
 

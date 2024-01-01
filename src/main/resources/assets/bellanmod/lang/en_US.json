@@ -6,7 +6,14 @@
   "item.bellanmod.brasadil": "Brasádil",
   "item.bellanmod.aquarel": "Aquarel",
   "item.bellanmod.brasell": "Braséll",
+
+
   "item.bellanmod.matrix_gold": "Matrix Gold",
+  "item.bellanmod.matrix_gold_sword": "Matrix Gold Sword",
+  "item.bellanmod.matrix_gold_pickaxe": "Matrix Gold Pickaxe",
+  "item.bellanmod.matrix_gold_axe": "Matrix Gold Axe",
+  "item.bellanmod.matrix_gold_shovel": "Matrix Gold Shovel",
+  "item.bellanmod.matrix_gold_hoe": "Matrix Gold Hoe",
 
   "block.bellanmod.limbo_block": "Limbo's Block",
   "block.bellanmod.brasadil_ore": "Brasádil Ore",

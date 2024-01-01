@@ -1,7 +1,17 @@
-// 1.20.1	2023-12-22T17:11:43.2511543	Recipes
+// 1.20.1	2024-01-01T15:00:58.9728192	Recipes
 2596cec08ab567e1be1ff71dd3e6a8020ca5360f data/bellanmod/advancements/recipes/misc/brasell.json
 dc60091d25d3b31e234019be6c6b7ebf4f4f96dd data/bellanmod/advancements/recipes/misc/limbo_block.json
 b23ea6809a70a5ab1edfd1129b3f6749da852f62 data/bellanmod/advancements/recipes/misc/limbo_essence.json
-7598ca426c2f5c4374040c6bfbc920ff87aaec61 data/bellanmod/recipes/brasell.json
+a626db1d03e135d8907d75101ffc43198df22f08 data/bellanmod/advancements/recipes/misc/matrix_gold_axe.json
+b1fc5a6cd257fcc8eea4f7616a975fae623ea978 data/bellanmod/advancements/recipes/misc/matrix_gold_hoe.json
+60cfbd05da546b0b9a195d36aaeba0841cb8d97c data/bellanmod/advancements/recipes/misc/matrix_gold_pickaxe.json
+1441f45acd86d8cda221121044593e48793ae008 data/bellanmod/advancements/recipes/misc/matrix_gold_shovel.json
+9a84116cd5c4b19e612706a2997d2c1cd8035bfc data/bellanmod/advancements/recipes/misc/matrix_gold_sword.json
+031c46c0b1382f5ea4c29c2da563f42e0b34f1c6 data/bellanmod/recipes/brasell.json
 54a5c8fe84c54ed8f09fb987501c4eb91fc0120d data/bellanmod/recipes/limbo_block.json
 7ac53c9a7b60e746e069601a701cff92ef8731af data/bellanmod/recipes/limbo_essence.json
+7c52483e5472b869bfa1aaa5770ed9e13c0b7d6a data/bellanmod/recipes/matrix_gold_axe.json
+707adbfdf90686e9e7f46ac3508e3e2d461c9db2 data/bellanmod/recipes/matrix_gold_hoe.json
+8c95ded00aa15a1fa5b496d5704d1dca8ef77186 data/bellanmod/recipes/matrix_gold_pickaxe.json
+f78017c75f135b8bf9c56ea60b3dd500f10a021b data/bellanmod/recipes/matrix_gold_shovel.json
+bebc805b772e8909787ad7a70c87e8931035cb87 data/bellanmod/recipes/matrix_gold_sword.json

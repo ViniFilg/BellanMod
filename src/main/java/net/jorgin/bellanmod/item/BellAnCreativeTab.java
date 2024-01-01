@@ -25,11 +25,21 @@ public class BellAnCreativeTab {
                         pOutput.accept(BellAnItems.Limbo_Essence.get());
                         pOutput.accept(BellAnItems.Elektra_Dagger.get());
 
+                        pOutput.accept(BellAnItems.Matrix_Gold_Sword.get());
+                        pOutput.accept(BellAnItems.Matrix_Gold_Pickaxe.get());
+                        pOutput.accept(BellAnItems.Matrix_Gold_Axe.get());
+                        pOutput.accept(BellAnItems.Matrix_Gold_Shovel.get());
+                        pOutput.accept(BellAnItems.Matrix_Gold_Hoe.get());
+
+
                         // minérios e metais
                         pOutput.accept(BellAnItems.Brasadil.get());
                         pOutput.accept(BellAnItems.Matrix_Gold.get());
                         pOutput.accept(BellAnItems.Aquarel.get());
                         pOutput.accept(BellAnItems.Brasell.get());
+
+                        //plantas e afins
+
 
 
 

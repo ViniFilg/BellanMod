@@ -2,6 +2,7 @@ package net.jorgin.bellanmod.datagen;
 
 import net.jorgin.bellanmod.BellAnMod;
 import net.jorgin.bellanmod.block.BellAnBlocks;
+import net.jorgin.bellanmod.util.BellAnTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
@@ -34,6 +35,9 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
         this.tag(BlockTags.NEEDS_STONE_TOOL)
                 .add(BellAnBlocks.AQUAREL_ORE.get());
+
+        this.tag(BellAnTags.Blocks.NEEDS_MATRIX_GOLD_TOOL);
+        // para quando precisar adicionar algo mineravel por matrix gold tools
 
     }
 }

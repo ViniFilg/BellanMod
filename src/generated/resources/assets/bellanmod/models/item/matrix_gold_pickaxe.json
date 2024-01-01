@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "bellanmod:item/matrix_gold_pickaxe"
+  }
+}

@@ -19,6 +19,12 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         handheldItem(BellAnItems.Elektra_Dagger);
         handheldItem(BellAnItems.Limbo_Staff);
+        handheldItem(BellAnItems.Matrix_Gold_Sword);
+        handheldItem(BellAnItems.Matrix_Gold_Pickaxe);
+        handheldItem(BellAnItems.Matrix_Gold_Axe);
+        handheldItem(BellAnItems.Matrix_Gold_Shovel);
+        handheldItem(BellAnItems.Matrix_Gold_Hoe);
+
 
         simpleItem(BellAnItems.Goggles);
         simpleItem(BellAnItems.Limbo_Essence);
@@ -26,6 +32,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(BellAnItems.Aquarel);
         simpleItem(BellAnItems.Matrix_Gold);
         simpleItem(BellAnItems.Brasell);
+
     }
 
     // metodos da adicionar um json para modelos de items

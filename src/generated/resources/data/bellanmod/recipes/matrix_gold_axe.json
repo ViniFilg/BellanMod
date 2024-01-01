@@ -3,19 +3,19 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "minecraft:iron_nugget"
+      "item": "minecraft:stick"
     },
     "$": {
-      "item": "bellanmod:brasadil"
+      "item": "bellanmod:matrix_gold"
     }
   },
   "pattern": [
-    "###",
-    "#$#",
-    "###"
+    " $$",
+    " #$",
+    " # "
   ],
   "result": {
-    "item": "bellanmod:brasell"
+    "item": "bellanmod:matrix_gold_axe"
   },
   "show_notification": true
 }

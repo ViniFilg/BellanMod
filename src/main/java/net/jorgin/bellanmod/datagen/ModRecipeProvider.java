@@ -43,10 +43,57 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("###")
                 .pattern("#$#")
                 .pattern("###")
-                .define('#', Items.IRON_INGOT)
+                .define('#', Items.IRON_NUGGET)
                 .define('$', BellAnItems.Brasadil.get())
                 .unlockedBy(getHasName(BellAnItems.Brasadil.get()), has(BellAnItems.Brasadil.get()))
                 .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, BellAnItems.Matrix_Gold_Sword.get())
+                .pattern(" $ ")
+                .pattern(" $ ")
+                .pattern(" # ")
+                .define('#', Items.STICK)
+                .define('$', BellAnItems.Matrix_Gold.get())
+                .unlockedBy(getHasName(BellAnItems.Matrix_Gold.get()), has(BellAnItems.Matrix_Gold.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, BellAnItems.Matrix_Gold_Pickaxe.get())
+                .pattern("$$$")
+                .pattern(" # ")
+                .pattern(" # ")
+                .define('#', Items.STICK)
+                .define('$', BellAnItems.Matrix_Gold.get())
+                .unlockedBy(getHasName(BellAnItems.Matrix_Gold.get()), has(BellAnItems.Matrix_Gold.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, BellAnItems.Matrix_Gold_Axe.get())
+                .pattern(" $$")
+                .pattern(" #$")
+                .pattern(" # ")
+                .define('#', Items.STICK)
+                .define('$', BellAnItems.Matrix_Gold.get())
+                .unlockedBy(getHasName(BellAnItems.Matrix_Gold.get()), has(BellAnItems.Matrix_Gold.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, BellAnItems.Matrix_Gold_Shovel.get())
+                .pattern(" $ ")
+                .pattern(" # ")
+                .pattern(" # ")
+                .define('#', Items.STICK)
+                .define('$', BellAnItems.Matrix_Gold.get())
+                .unlockedBy(getHasName(BellAnItems.Matrix_Gold.get()), has(BellAnItems.Matrix_Gold.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, BellAnItems.Matrix_Gold_Hoe.get())
+                .pattern(" $$")
+                .pattern(" # ")
+                .pattern(" # ")
+                .define('#', Items.STICK)
+                .define('$', BellAnItems.Matrix_Gold.get())
+                .unlockedBy(getHasName(BellAnItems.Matrix_Gold.get()), has(BellAnItems.Matrix_Gold.get()))
+                .save(pWriter);
+
+
 
     }
 
