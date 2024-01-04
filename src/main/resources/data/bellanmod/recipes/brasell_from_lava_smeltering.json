@@ -1,0 +1,12 @@
+{
+  "type": "bellanmod:lava_smeltering",
+  "ingredients": [
+    {
+      "item": "bellanmod:brasadil"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "bellanmod:brasell"
+  }
+}

@@ -1,5 +1,8 @@
-// 1.20.1	2023-12-22T17:11:43.2491411	Loot Tables
+// 1.20.1	2024-01-04T14:44:46.1981161	Loot Tables
 b33fffd1918f0c720675b7f7f7caad140894ba8e data/bellanmod/loot_tables/blocks/aquarel_ore.json
 e4521e65a31f0fd55ecb25cdbc35d72ab8422dfc data/bellanmod/loot_tables/blocks/brasadil_ore.json
+e4efe07e870e5a49937492510014c8cd1e52a31f data/bellanmod/loot_tables/blocks/lava_smelter.json
+f8dc380974cacd8d7cbdf21633da22f2e7f00e9b data/bellanmod/loot_tables/blocks/lead_ore.json
 cb0d1ac9fe54079d523e5fdee812bb2a5df8b3c1 data/bellanmod/loot_tables/blocks/limbo_block.json
 b80ea8e11f3f99f177e320a32f5c1ccba8392fd5 data/bellanmod/loot_tables/blocks/matrix_gold_ore.json
+4a9805ff10a81ca6a378220c347e30eedc1c23cf data/bellanmod/loot_tables/blocks/silver_ore.json

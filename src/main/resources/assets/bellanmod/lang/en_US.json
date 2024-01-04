@@ -6,6 +6,8 @@
   "item.bellanmod.brasadil": "Brasádil",
   "item.bellanmod.aquarel": "Aquarel",
   "item.bellanmod.brasell": "Braséll",
+  "item.bellanmod.silver": "Silver",
+  "item.bellanmod.lead": "Lead",
 
 
   "item.bellanmod.matrix_gold": "Matrix Gold",
@@ -19,6 +21,10 @@
   "block.bellanmod.brasadil_ore": "Brasádil Ore",
   "block.bellanmod.matrix_gold_ore": "Matrix Gold Ore",
   "block.bellanmod.aquarel_ore": "Aquarel Ore",
+  "block.bellanmod.silver_ore": "Silver Ore",
+  "block.bellanmod.lead_ore": "Lead Ore",
+  "block.bellanmod.lava_smelter": "Lava Smelter",
+
 
   "creativetab.bellum_anachronisms": "Bellum Anachronisms"
 }

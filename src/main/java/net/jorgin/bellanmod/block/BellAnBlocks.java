@@ -1,6 +1,7 @@
 package net.jorgin.bellanmod.block;
 
 import net.jorgin.bellanmod.BellAnMod;
+import net.jorgin.bellanmod.block.custom.LavaSmelterBlock;
 import net.jorgin.bellanmod.item.BellAnItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -27,7 +28,14 @@ public class BellAnBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)));
     public static final RegistryObject<Block> MATRIX_GOLD_ORE = registerBlock("matrix_gold_ore",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)));
+    public static final RegistryObject<Block> SILVER_ORE = registerBlock("silver_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)));
+    public static final RegistryObject<Block> LEAD_ORE = registerBlock("lead_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)));
 
+
+    public static final RegistryObject<Block> LAVA_SMELTER = registerBlock("lava_smelter",
+            () -> new LavaSmelterBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
 
 
 

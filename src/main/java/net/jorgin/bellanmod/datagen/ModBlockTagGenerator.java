@@ -26,12 +26,16 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(BellAnBlocks.LIMBO_BLOCK.get())
                 .add(BellAnBlocks.BRASADIL_ORE.get())
                 .add(BellAnBlocks.AQUAREL_ORE.get())
-                .add(BellAnBlocks.MATRIX_GOLD_ORE.get());
+                .add(BellAnBlocks.MATRIX_GOLD_ORE.get())
+                .add(BellAnBlocks.SILVER_ORE.get())
+                .add(BellAnBlocks.LEAD_ORE.get());
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(BellAnBlocks.LIMBO_BLOCK.get())
                 .add(BellAnBlocks.BRASADIL_ORE.get())
-                .add(BellAnBlocks.MATRIX_GOLD_ORE.get());
+                .add(BellAnBlocks.MATRIX_GOLD_ORE.get())
+                .add(BellAnBlocks.SILVER_ORE.get())
+                .add(BellAnBlocks.LEAD_ORE.get());
 
         this.tag(BlockTags.NEEDS_STONE_TOOL)
                 .add(BellAnBlocks.AQUAREL_ORE.get());

@@ -2,6 +2,8 @@
   "values": [
     "bellanmod:limbo_block",
     "bellanmod:brasadil_ore",
-    "bellanmod:matrix_gold_ore"
+    "bellanmod:matrix_gold_ore",
+    "bellanmod:silver_ore",
+    "bellanmod:lead_ore"
   ]
 }

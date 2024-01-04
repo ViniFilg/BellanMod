@@ -32,6 +32,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(BellAnItems.Aquarel);
         simpleItem(BellAnItems.Matrix_Gold);
         simpleItem(BellAnItems.Brasell);
+        simpleItem(BellAnItems.Silver);
+        simpleItem(BellAnItems.Lead);
 
     }
 

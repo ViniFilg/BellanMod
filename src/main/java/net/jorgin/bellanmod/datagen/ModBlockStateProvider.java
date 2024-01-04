@@ -5,6 +5,7 @@ import net.jorgin.bellanmod.block.BellAnBlocks;
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
+import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.RegistryObject;
 
@@ -21,12 +22,16 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(BellAnBlocks.BRASADIL_ORE);
         blockWithItem(BellAnBlocks.AQUAREL_ORE);
         blockWithItem(BellAnBlocks.MATRIX_GOLD_ORE);
+        blockWithItem(BellAnBlocks.SILVER_ORE);
+        blockWithItem(BellAnBlocks.LEAD_ORE);
 
-
+        simpleBlockWithItem(BellAnBlocks.LAVA_SMELTER.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/lava_smelter")));
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {
         simpleBlockWithItem(blockRegistryObject.get(), cubeAll(blockRegistryObject.get()));
     }
+
 }
 

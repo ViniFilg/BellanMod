@@ -10,20 +10,19 @@ import net.minecraftforge.registries.RegistryObject;
 public class BellAnItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, BellAnMod.MOD_ID);
-
     public static final RegistryObject<Item> Goggles = ITEMS.register("goggles",
             () -> new Item(new Item.Properties()));
-
     public static final RegistryObject<Item> Brasadil = ITEMS.register("brasadil",
             () -> new Item(new Item.Properties()));
-
     public static final RegistryObject<Item> Brasell = ITEMS.register("brasell",
             () -> new Item(new Item.Properties()));
-
     public static final RegistryObject<Item> Matrix_Gold = ITEMS.register("matrix_gold",
             () -> new Item(new Item.Properties()));
-
     public static final RegistryObject<Item> Aquarel = ITEMS.register("aquarel",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> Silver = ITEMS.register("silver",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> Lead = ITEMS.register("lead",
             () -> new Item(new Item.Properties()));
 
 
@@ -34,7 +33,6 @@ public class BellAnItems {
     // armas e ferramentas
     public static final RegistryObject<Item> Limbo_Staff = ITEMS.register("limbo_staff",
             () -> new SwordItem(Tiers.DIAMOND,7,4, new Item.Properties()));
-
     public static final RegistryObject<Item> Elektra_Dagger = ITEMS.register("elektra_dagger",
             () -> new SwordItem(Tiers.DIAMOND, 8, 2, new Item.Properties()));
 

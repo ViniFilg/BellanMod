@@ -1,13 +1,21 @@
-// 1.20.1	2023-12-22T17:11:43.2531509	Block States: bellanmod
+// 1.20.1	2024-01-04T14:44:46.207635	Block States: bellanmod
 96de3f81774fae86ba794e7cf3794fe01730d0a0 assets/bellanmod/blockstates/aquarel_ore.json
 5393f91c3873878e3207a660ecb9b14196928f3d assets/bellanmod/blockstates/brasadil_ore.json
+41a52176edea53e25b027a9bc3598924e6bdd07f assets/bellanmod/blockstates/lava_smelter.json
+44f920adaac7543b4a98070794c8d63bcaa53b16 assets/bellanmod/blockstates/lead_ore.json
 096d71bcb5179b81bdd2df35b00e5ad56672650e assets/bellanmod/blockstates/limbo_block.json
 4cb1c6715a1d4b1921ee706cc5b1b1103d477141 assets/bellanmod/blockstates/matrix_gold_ore.json
+a550b22dc029b8ae13b9c976cf6be15c484d7a4d assets/bellanmod/blockstates/silver_ore.json
 3fad28537eace3705a6c646963c6dadd7f8cee7b assets/bellanmod/models/block/aquarel_ore.json
 8af8b156fc3e3dd0d6da20b5e0e27cf80c696598 assets/bellanmod/models/block/brasadil_ore.json
+c027d9a5901db230c7d3cc8a5400b1b46a5c11ad assets/bellanmod/models/block/lead_ore.json
 d33b16df74e3b3072b4893f5df0ae47610c7ed00 assets/bellanmod/models/block/limbo_block.json
 bcf487e8a1f7dabb292f2ee94085e30bb8350d68 assets/bellanmod/models/block/matrix_gold_ore.json
+a592e767907ca36414746b2214f17e7a43d2fa2c assets/bellanmod/models/block/silver_ore.json
 67f62b06d0d0cd31105419df2850c28a6beca570 assets/bellanmod/models/item/aquarel_ore.json
 482771931a1acd6d631ff341c64b3981df313eca assets/bellanmod/models/item/brasadil_ore.json
+b44be56394b02b151b75e71eebb800be144bbddb assets/bellanmod/models/item/lava_smelter.json
+778ed14357fc4d5c20eca2f88c6d4c1781f5656c assets/bellanmod/models/item/lead_ore.json
 f15974932d5e754bbaff1aa56094374e3161cfe6 assets/bellanmod/models/item/limbo_block.json
 0f369b2d91327172636b22509daafa46be707069 assets/bellanmod/models/item/matrix_gold_ore.json
+b054f37c342bfe1b6651c841dd484dc6d4c57f6c assets/bellanmod/models/item/silver_ore.json

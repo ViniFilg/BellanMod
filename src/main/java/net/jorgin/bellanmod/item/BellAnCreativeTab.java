@@ -37,8 +37,8 @@ public class BellAnCreativeTab {
                         pOutput.accept(BellAnItems.Matrix_Gold.get());
                         pOutput.accept(BellAnItems.Aquarel.get());
                         pOutput.accept(BellAnItems.Brasell.get());
-
-                        //plantas e afins
+                        pOutput.accept(BellAnItems.Silver.get());
+                        pOutput.accept(BellAnItems.Lead.get());
 
 
 
@@ -47,6 +47,9 @@ public class BellAnCreativeTab {
                         pOutput.accept(BellAnBlocks.BRASADIL_ORE.get());
                         pOutput.accept(BellAnBlocks.AQUAREL_ORE.get());
                         pOutput.accept(BellAnBlocks.MATRIX_GOLD_ORE.get());
+                        pOutput.accept(BellAnBlocks.SILVER_ORE.get());
+                        pOutput.accept(BellAnBlocks.LEAD_ORE.get());
+                        pOutput.accept(BellAnBlocks.LAVA_SMELTER.get());
 
 
 

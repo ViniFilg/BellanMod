@@ -1,9 +1,10 @@
-// 1.20.1	2024-01-01T15:00:58.9657834	Item Models: bellanmod
+// 1.20.1	2024-01-04T14:44:46.1721437	Item Models: bellanmod
 88d357150c9778b475c8c0dde033d48af30fadf1 assets/bellanmod/models/item/aquarel.json
 38485fa0e8bf7559ada03e4bf2f61c55c1d50b69 assets/bellanmod/models/item/brasadil.json
 b99b9900125709ba3f8cc38019739f86768960d9 assets/bellanmod/models/item/brasell.json
 c906c993da0ecf1aea29a995d6e67685b7d24bc7 assets/bellanmod/models/item/elektra_dagger.json
 cc91e6ec0a4a0c1f16cd25bfc9f6b89f5625c906 assets/bellanmod/models/item/goggles.json
+d790e2f43694ecd21d95fa9a24b9c6cdd3ea734f assets/bellanmod/models/item/lead.json
 b2d361bc7d10c80db7d20daefa12db1b36acdad7 assets/bellanmod/models/item/limbo_essence.json
 50ffbc6992e4a11685836372e4fda97129134146 assets/bellanmod/models/item/limbo_staff.json
 81f46a12fddf46b69c6820b49a4678e7d939f60f assets/bellanmod/models/item/matrix_gold.json
@@ -12,3 +13,4 @@ b2d361bc7d10c80db7d20daefa12db1b36acdad7 assets/bellanmod/models/item/limbo_esse
 ee20525ac2979bc5420b0318c0557372122d8914 assets/bellanmod/models/item/matrix_gold_pickaxe.json
 4048bd2905cb6e761a9e843cbcf66801e9e3b202 assets/bellanmod/models/item/matrix_gold_shovel.json
 ab2662adcb27a1bf29ec825ff1dbebb3bfc5b92c assets/bellanmod/models/item/matrix_gold_sword.json
+d84185e700635dccac4d860370ca4b72a35bcfa2 assets/bellanmod/models/item/silver.json

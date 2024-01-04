@@ -2,8 +2,13 @@ package net.jorgin.bellanmod;
 
 import com.mojang.logging.LogUtils;
 import net.jorgin.bellanmod.block.BellAnBlocks;
+import net.jorgin.bellanmod.block.entity.BellAnBlockEntities;
 import net.jorgin.bellanmod.item.BellAnCreativeTab;
 import net.jorgin.bellanmod.item.BellAnItems;
+import net.jorgin.bellanmod.recipe.BellAnRecipes;
+import net.jorgin.bellanmod.screen.BellAnMenuTypes;
+import net.jorgin.bellanmod.screen.LavaSmelterScreen;
+import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -30,6 +35,11 @@ public class BellAnMod {
 
         BellAnItems.register(modEventBus);
         BellAnBlocks.register(modEventBus);
+
+        BellAnBlockEntities.register(modEventBus);
+        BellAnMenuTypes.register(modEventBus);
+
+        BellAnRecipes.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -65,6 +75,7 @@ public class BellAnMod {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
 
+            MenuScreens.register(BellAnMenuTypes.LAVA_SMELTER_MENU.get(), LavaSmelterScreen::new);
         }
     }
 }
