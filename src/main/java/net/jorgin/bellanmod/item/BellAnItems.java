@@ -1,7 +1,9 @@
 package net.jorgin.bellanmod.item;
 
 import net.jorgin.bellanmod.BellAnMod;
+import net.jorgin.bellanmod.entity.BellAnEntities;
 import net.minecraft.world.item.*;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -24,6 +26,8 @@ public class BellAnItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> Lead = ITEMS.register("lead",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> Bolinha_Spawn_Egg = ITEMS.register("bolinha_spawn_egg",
+            () -> new ForgeSpawnEggItem(BellAnEntities.BOLINNHA, 0x2ECC71, 0x0E6655, new Item.Properties()));
 
 
 

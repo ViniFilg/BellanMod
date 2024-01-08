@@ -34,6 +34,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(BellAnItems.Brasell);
         simpleItem(BellAnItems.Silver);
         simpleItem(BellAnItems.Lead);
+        withExistingParent(BellAnItems.Bolinha_Spawn_Egg.getId().getPath(), mcLoc("item/template_spawn_egg"));
 
     }
 
