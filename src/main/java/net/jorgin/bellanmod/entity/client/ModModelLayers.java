@@ -7,4 +7,6 @@ import net.minecraft.resources.ResourceLocation;
 public class ModModelLayers {
     public static final ModelLayerLocation BOLINHA_LAYER = new ModelLayerLocation(
             new ResourceLocation(BellAnMod.MOD_ID, "bolinha_layer"), "main");
+    public static final ModelLayerLocation PHANTOMMOD_LAYER = new ModelLayerLocation(
+            new ResourceLocation(BellAnMod.MOD_ID, "phantommod_layer"), "main");
 }

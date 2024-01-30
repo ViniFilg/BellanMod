@@ -51,6 +51,7 @@ public class BellAnCreativeTab {
                         pOutput.accept(BellAnBlocks.LEAD_ORE.get());
                         pOutput.accept(BellAnBlocks.LAVA_SMELTER.get());
                         pOutput.accept(BellAnItems.Bolinha_Spawn_Egg.get());
+                        pOutput.accept(BellAnItems.PhantomMod_Spawn_Egg.get());
 
 
 

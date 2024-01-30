@@ -35,7 +35,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(BellAnItems.Silver);
         simpleItem(BellAnItems.Lead);
         withExistingParent(BellAnItems.Bolinha_Spawn_Egg.getId().getPath(), mcLoc("item/template_spawn_egg"));
-
+        withExistingParent(BellAnItems.PhantomMod_Spawn_Egg.getId().getPath(), mcLoc("item/template_spawn_egg"));
     }
 
     // metodos da adicionar um json para modelos de items

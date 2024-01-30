@@ -6,12 +6,10 @@ package net.jorgin.bellanmod.entity.client;
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import net.jorgin.bellanmod.entity.animations.ModAnimationDefinitions;
-import net.jorgin.bellanmod.entity.custom.BolinhaEntity;
 import net.minecraft.client.model.HierarchicalModel;
 import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.geom.PartPose;
 import net.minecraft.client.model.geom.builders.*;
-import net.minecraft.util.Mth;
 import net.minecraft.world.entity.Entity;
 
 public class BolinhaModel<T extends Entity> extends HierarchicalModel<T> {
@@ -48,7 +46,7 @@ public class BolinhaModel<T extends Entity> extends HierarchicalModel<T> {
 	public void setupAnim(T entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
 		this.root().getAllParts().forEach(ModelPart::resetPose);
 
-		this.animateWalk(ModAnimationDefinitions.WALKIN, limbSwing, limbSwingAmount, 1f, 1.5f);
+		this.animateWalk(ModAnimationDefinitions.WalkingBolinha, limbSwing, limbSwingAmount, 1f, 1.5f);
 	}
 	@Override
 	public void renderToBuffer(PoseStack poseStack, VertexConsumer vertexConsumer, int packedLight, int packedOverlay, float red, float green, float blue, float alpha) {

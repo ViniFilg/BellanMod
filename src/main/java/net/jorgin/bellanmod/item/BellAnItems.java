@@ -28,7 +28,8 @@ public class BellAnItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> Bolinha_Spawn_Egg = ITEMS.register("bolinha_spawn_egg",
             () -> new ForgeSpawnEggItem(BellAnEntities.BOLINNHA, 0x2ECC71, 0x0E6655, new Item.Properties()));
-
+    public static final RegistryObject<Item> PhantomMod_Spawn_Egg = ITEMS.register("phantommod_spawn_egg",
+            () -> new ForgeSpawnEggItem(BellAnEntities.PHANTOMMOD, 0x865F1D, 0x400062, new Item.Properties()));
 
 
     public static final RegistryObject<Item> Limbo_Essence = ITEMS.register("limbo_essence",

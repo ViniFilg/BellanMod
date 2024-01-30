@@ -5,6 +5,7 @@ import net.jorgin.bellanmod.block.BellAnBlocks;
 import net.jorgin.bellanmod.block.entity.BellAnBlockEntities;
 import net.jorgin.bellanmod.entity.BellAnEntities;
 import net.jorgin.bellanmod.entity.client.BolinhaRenderer;
+import net.jorgin.bellanmod.entity.client.PhantomModRenderer;
 import net.jorgin.bellanmod.item.BellAnCreativeTab;
 import net.jorgin.bellanmod.item.BellAnItems;
 import net.jorgin.bellanmod.recipe.BellAnRecipes;
@@ -79,6 +80,7 @@ public class BellAnMod {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
             EntityRenderers.register(BellAnEntities.BOLINNHA.get(), BolinhaRenderer::new);
+            EntityRenderers.register(BellAnEntities.PHANTOMMOD.get(), PhantomModRenderer::new);
             MenuScreens.register(BellAnMenuTypes.LAVA_SMELTER_MENU.get(), LavaSmelterScreen::new);
         }
     }
