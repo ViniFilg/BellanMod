@@ -92,9 +92,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('$', BellAnItems.Matrix_Gold.get())
                 .unlockedBy(getHasName(BellAnItems.Matrix_Gold.get()), has(BellAnItems.Matrix_Gold.get()))
                 .save(pWriter);
-
-
-
     }
 
 

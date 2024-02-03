@@ -23,6 +23,7 @@ public class BellAnCreativeTab {
                         pOutput.accept(BellAnItems.Goggles.get());
                         pOutput.accept(BellAnItems.Limbo_Staff.get());
                         pOutput.accept(BellAnItems.Limbo_Essence.get());
+                        pOutput.accept(BellAnItems.Vodka.get());
                         pOutput.accept(BellAnItems.Elektra_Dagger.get());
 
                         pOutput.accept(BellAnItems.Matrix_Gold_Sword.get());
@@ -39,6 +40,8 @@ public class BellAnCreativeTab {
                         pOutput.accept(BellAnItems.Brasell.get());
                         pOutput.accept(BellAnItems.Silver.get());
                         pOutput.accept(BellAnItems.Lead.get());
+                        pOutput.accept(BellAnItems.Gear.get());
+                        pOutput.accept(BellAnItems.Wrench.get());
 
 
 

@@ -26,6 +26,8 @@ public class BellAnItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> Lead = ITEMS.register("lead",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> Gear = ITEMS.register("gear",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> Bolinha_Spawn_Egg = ITEMS.register("bolinha_spawn_egg",
             () -> new ForgeSpawnEggItem(BellAnEntities.BOLINNHA, 0x2ECC71, 0x0E6655, new Item.Properties()));
     public static final RegistryObject<Item> PhantomMod_Spawn_Egg = ITEMS.register("phantommod_spawn_egg",
@@ -34,8 +36,13 @@ public class BellAnItems {
 
     public static final RegistryObject<Item> Limbo_Essence = ITEMS.register("limbo_essence",
             () -> new Item(new Item.Properties().food(BellAnFoods.LIMBO_ESSENCE)));
+    public static final RegistryObject<Item> Vodka = ITEMS.register("vodka",
+            () -> new Item(new Item.Properties().food(BellAnFoods.VODKA)));
+
 
     // armas e ferramentas
+    public static final RegistryObject<Item> Wrench = ITEMS.register("wrench",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> Limbo_Staff = ITEMS.register("limbo_staff",
             () -> new SwordItem(Tiers.DIAMOND,7,4, new Item.Properties()));
     public static final RegistryObject<Item> Elektra_Dagger = ITEMS.register("elektra_dagger",

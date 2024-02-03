@@ -19,11 +19,13 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         handheldItem(BellAnItems.Elektra_Dagger);
         handheldItem(BellAnItems.Limbo_Staff);
+        handheldItem(BellAnItems.Wrench);
         handheldItem(BellAnItems.Matrix_Gold_Sword);
         handheldItem(BellAnItems.Matrix_Gold_Pickaxe);
         handheldItem(BellAnItems.Matrix_Gold_Axe);
         handheldItem(BellAnItems.Matrix_Gold_Shovel);
         handheldItem(BellAnItems.Matrix_Gold_Hoe);
+        handheldItem(BellAnItems.Vodka);
 
 
         simpleItem(BellAnItems.Goggles);
@@ -34,6 +36,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(BellAnItems.Brasell);
         simpleItem(BellAnItems.Silver);
         simpleItem(BellAnItems.Lead);
+        simpleItem(BellAnItems.Gear);
         withExistingParent(BellAnItems.Bolinha_Spawn_Egg.getId().getPath(), mcLoc("item/template_spawn_egg"));
         withExistingParent(BellAnItems.PhantomMod_Spawn_Egg.getId().getPath(), mcLoc("item/template_spawn_egg"));
     }
